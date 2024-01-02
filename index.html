@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header" id="mytopmenu">
+        
+            <img src="logo.png" class="logo">
+        
+        <div class="header-right">
+            <a href="#mytopmenu"><i class="fa fa-home"></i>&nbspHome</a>
+            <a href="#about"><i class="fa fa-user-circle"></i>&nbspAbout</a>
+            <a href="#service"><i class="fa fa-gear"></i>&nbspServices</a>
+            <a href="#contact"><i class="fa fa-phone"></i>&nbspContact</a>
+            <a class="icon" onclick="myFunction()" href="javascript:void(0);"><i class="fa fa-bars"></i></a>
+        </div>
+    </div>
+
+<section>
+    <div class="parents">
+        <div class="column" style="background-color:black; color: white; padding: 20px 20px;">
+
+            <h4 style="color: skyblue;">-Hi,I'am</h4>
+
+            <h1 style="color: greenyellow; font-family: cursive;">Dawa Tshering Bomjan</h1>
+
+            <p style="color: skyblue;">My name is Dawa Tshering Bomjan, I've done with coding and web development course from Desuung Skilling Program. In order to kick-start my career before I complete course, I am looking for a job of a web developer, since that's what I've been doing already for four month's in my free time. Besides that I am a normal guy who enjoys hiking and spending time with friends, while not working or studying, which takes most of my time of course.</p>
+
+            <button>Contact Me</button>
+        </div>
+
+        <div class="column" style="background-color:black;  display: flex; justify-content: center; align-items: center;">
+
+            <div style="background-color: goldenrod; width: 300px; height: 300px; display: flex; justify-content: center; border-radius: 50%; align-items: center;">
+
+                <div style="background-color:rgb(194, 144, 188); width: 250px; height: 250px; display: flex; justify-content: center; border-radius: 50%; align-items: center;">
+
+           <img src="me.jpg" >
+
+        </div>
+        </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="section2" id="service">
+
+    <h1>Service</h1>
+    <p>Get the best <strong style="color: yellow;">Service</strong> ever.</p>
+    
+    <div class="column2">
+
+        <div style="background-color: rgb(90, 66, 35); border-radius: 8px; margin: 20px; width: 1000px;">
+            <h1><i class="fa fa-asl-interpreting"></i></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nemo, maxime eligendi ut reprehenderit consequatur.</p>
+        </div>
+
+
+        <div style="background-color: rgb(59, 138, 85); border-radius: 8px; margin: 20px; width: 1000px">
+            <h1><i class="fa fa-bank"></i></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit et, rem voluptates aliquam repudiandae quae?</p>
+        </div>
+
+
+        <div style="background-color: rgb(122, 147, 174); border-radius: 8px; margin: 20px; width: 1000px">
+            <h1><i class="fa fa-gear"></i></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officia cum culpa explicabo mollitia placeat!</p>
+        </div>
+
+
+        <div style="background-color: rgb(161, 123, 192); border-radius: 8px; margin: 20px; width: 1000px">
+            <h1><i class="fa fa-snowflake-o"></i></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo, neque illo assumenda asperiores odit?</p>
+        </div>
+
+    </div>
+
+  
+
+    
+</section>
+
+<section id="about">
+
+    <h1 style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">About Me</h1> 
+     
+    <div class="sonam" style="background-color: black; color: deeppink; display: flex; width: 100%; justify-content: center; align-items: center;"> 
+        
+       <div class="child-one" style="width: 50%; display: flex; justify-content: center; align-items: center;"> 
+            
+           <img src="dawa.jpg" style="width: 500px; height: 600px; padding-bottom: 100px;"> 
+
+       </div> 
+    
+       <div class="child-two" style="width: 50%; padding: 10px;"> 
+
+        <div class="wrap">
+            <div class="container">
+                <i class="fas fa-project-diagram"></i>
+                <span class="number" data-val="5">000</span><br>
+                <span class="text">Project Complete</span>
+            </div>
+        
+            <div class="container">
+                <i class="fas fa-project-diagram"></i>
+                <span class="number" data-val="100">000</span><br>
+                <span class="text">Hours Done</span>
+            </div>
+        
+            <div class="container">
+                <i class="fas fa-project-diagram"></i>
+                <span class="number" data-val="20">000</span><br>
+                <span class="text">Happy Client</span>
+            </div>
+        </div>
+       </div> 
+
+
+    </div> 
+
+
+</section>
+
+<section  style="background-color: rgb(112, 173, 208); padding-top: 10px;" id="contact">
+
+    <h1 style="text-align: center; font-size: 35px; font-family: Georgia, 'Times New Roman', Times, serif;">Contact Me</h1>
+    <div style="margin: 30px; display: flex; justify-content: space-between; align-items: center;">
+       
+        <form style="border: 6px solid greenyellow; width: 200px; padding: 10px; height: 230px;">
+            
+            <label for="name">First Name:</label><br>
+            <input type="text" placeholder="first name"><br><br>
+
+            <label for="name">Last Name:</label><br>
+            <input type="text" placeholder="last name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" placeholder="@gmail.com"><br><br>
+
+            <input type="submit" onclick="dawaTshering()" style="padding: 5px; margin-left: 50px; background-color: darkcyan; border-radius: 8px;">
+
+        </form>
+
+        <div style="text-align: center;">
+            <h3>Reach To Me</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509.367681741715!2d90.5062874665261!3d27.500438185249852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375f2234ac0d4e81%3A0xfa47421806bd585c!2sPuenzhi%20Guesthouse!5e0!3m2!1sen!2sbt!4v1703735896396!5m2!1sen!2sbt" width="300" height="300" style="border:2px dotted rgb(16, 8, 14);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+</section>
+
+
+<footer style="background-color: cadetblue; padding: 10px; margin-top: -30 px;">
+    <p style="text-align: center;">&copy Copyright| Designed by: Bomjan @ 2023</p>
+    <div style="text-align: center;" >
+        <a style="padding: 30px; font-size: 30px; color: black;" href=""><i class="fa fa-facebook"></i></a>
+        <a style="padding: 30px; font-size: 30px; color: black;" href=""><i class="fa fa-instagram"></i></a>
+        <a style="padding: 30px; font-size: 30px; color: black;" href=""><i class="fa fa-twitter"></i></a>
+    </div>
+
+
+</footer>
+
+    
+</body>
+<footer>
+    <script src="script.js"></script>
+</footer>
+</html>
